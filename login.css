@@ -1,0 +1,160 @@
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+    /* font-family: "Roboto", system-ui; */
+
+}
+
+/* body {
+    display: flex;
+    flex-direction: column;
+} */
+
+* {
+    margin: 0 0 0 0;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+#header-noteit {
+    width: 115px;
+}
+
+.right-section {
+    display: flex;
+    justify-content: space-between;
+    width: 245px;
+    font-weight: 600;
+}
+
+.right-section a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+.right-section a:hover {
+    color: #5a47a0;
+    text-decoration: underline #5a47a0;
+}
+
+.container {
+    height: 100vh;
+    min-height: 650px;
+    /* flex-grow: 1; */
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    /* position: relative; */
+}
+
+.login-container {
+    /* background-color: aqua; */
+    width: 380px;
+    height: 500px;
+} 
+
+.login-noteit-container {
+    display: grid;
+    place-items: center;
+    margin-bottom: 60px;
+}
+
+#login-noteit {
+    width: 180px;
+}
+
+#input-box {
+    width: 100%;
+    /* background-color: blueviolet; */
+    margin: 30px 0;
+    height: 50px;
+    margin-bottom: 40px;
+}
+
+#input-box input {
+    width: 100%;
+    height: 45px;
+    border-radius: 5px;
+    border: none;
+    border: 2px solid #cbcaca;
+    outline: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 15px;
+    color: #cbcaca;
+}
+
+#input-box p {
+    color: #cbcaca;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.remember-me {
+    display: flex;
+    justify-content: space-between;
+} 
+
+.remember-me label input[type="checkbox"] {
+    accent-color: black;
+    appearance: none;
+    -webkit-appearance: none;
+    border: 2px solid #cbcaca;
+    height: 100%;
+    width: 23px;
+    border-radius: 2px;
+    outline: none;
+    margin-right: 5px;
+}
+
+input[type="checkbox"]:checked {
+    background-color: #00b594;
+}
+
+.remember-me label {
+    color: #cbcaca;
+    font-size: 14px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.remember-me a{
+    font-size: 14px;
+}
+
+.login-container button {
+    width: 100%;
+    height: 50px;
+    margin-top: 90px;
+    border: none;
+    font-weight: 600;
+    font-size: 16px;
+    color: white;
+    background-color: #00b594;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.20s;
+}
+
+.login-container button:hover {
+    transform: scale(0.9);
+}
+
+.login-container button:active {
+    opacity: 0.80;
+}
+

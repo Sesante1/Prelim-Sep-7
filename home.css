@@ -1,0 +1,107 @@
+* {
+    margin: 0 0 0 0;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+#header-noteit {
+    width: 115px;
+}
+
+.right-section {
+    display: flex;
+    justify-content: space-between;
+    width: 245px;
+    font-weight: 600;
+}
+
+.right-section a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+.right-section a:hover {
+    color: #5a47a0;
+    text-decoration: underline #5a47a0;
+}
+
+.wraper {
+    height: 100vh;
+    min-height: 650px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    display: grid;
+    place-items: center;
+}
+
+.element-container {
+    display: flex;
+}
+
+.img-container {
+    width: 500px;
+}
+
+.container {
+    width: 460px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container .noteit-container {
+    margin-top: 20px;
+    margin-bottom: 35px;
+}
+
+.container p {
+    font-size: 16px;
+    line-height: 35px;
+}
+
+.wraper .img-container img {
+    width: 100%;
+}
+
+.wraper .container {
+    background-color: #e8f4ff;
+}
+
+.paragraph-container {
+    display: grid;
+    place-items: center;
+}
+
+.container button {
+    margin-top: 23px;
+    font-size: 15px;
+    color: white;
+    background-color: #00b594;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 65px;
+    cursor: pointer;
+    transition: transform 0.20s;
+}
+
+.container button:active {
+    opacity: 0.70;
+}
+
+.container button:hover {
+    transform: scale(0.9);
+}
